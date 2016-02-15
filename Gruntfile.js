@@ -86,7 +86,7 @@ module.exports = function(grunt) {
 	});
 
 	//Registra Task personalizadas para serem usadas no grunt
-	grunt.registerTask('server', ['watch', 'browserSync']); // Executa o serviço de sicronia e monitoramento
+	grunt.registerTask('server', ['browserSync', 'watch']); // Executa o serviço de sicronia e monitoramento
 	grunt.registerTask('dist', ['clean', 'copy']); //apaga e copia a pasta dist
 	grunt.registerTask('minifica', ['useminPrepare', 'concat', 'uglify', 'cssmin', 'rev', 'usemin']);
 

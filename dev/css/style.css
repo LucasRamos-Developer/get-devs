@@ -139,6 +139,8 @@ figure, img {max-width: 100%; height: auto; width: 100%;}
 .produtos .produto-inner:hover {box-shadow: 0 0 7px 0 rgba(0,0,0,.15);}
 .produtos .produto-inner .produto-infor {padding: 10px;}
 .produtos .produto-inner .produto-infor .preco {width: 100%; float: left; margin-top: 15px; font-weight: normal; font-size: 14px; font-weight: bold;}
+.produtos .produto-inner .produto-infor .preco > span.ant {color: #c7c7c7; text-decoration: line-through; float: left; margin-right: 5px; padding-right: 5px;}
+.produtos .produto-inner .produto-infor .preco > span.ant:last-of-type {color: #000 !important; text-decoration: none !important;} 
 .produtos .produto-inner .produto-infor h4 {width: 100%; float: left; margin-top: 15px; font-weight: normal; font-size: 14px;}
 .produtos .produto-inner .rating {color: #c7c7c7; width: 100%; float: left; direction: rtl; text-align: left;}
 .produtos .produto-inner > button {text-transform: uppercase; font-size: 13px; font-weight: bold; text-align: left; width: 100%; padding: 15px 10px ; background-image: url('../images/cart-button.png');  background-repeat: no-repeat; background-position: 95% center; margin-top: 40px; border-top-left-radius: 0; border-top-right-radius: 0; opacity: 0;}

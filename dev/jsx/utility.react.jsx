@@ -24,7 +24,7 @@ var Valor = React.createClass({displayName: "Valor",
     },
     render: function () {
         return (
-            React.createElement("span", null, "R$ ", this.val_real(this.props.val, 2, ',', '.'))
+            React.createElement("span",, "R$ ", this.val_real(this.props.val, 2, ',', '.'))
         );
     }
 });
