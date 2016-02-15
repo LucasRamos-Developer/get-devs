@@ -75,13 +75,19 @@ figure, img {max-width: 100%; height: auto; width: 100%;}
 #search form button {position: absolute; border: none; padding: 0; background-color: transparent; font-weight: lighter; left: 8px; top: 7px; z-index: 9; cursor: pointer;}
 #search form input {height: 32px; padding-left: 30px;}
 
-#login-cart {width: 250px; margin-top: 50px; position: absolute; right: 0px; top: 0px; font-size: 11px;}
+#login-cart {width: 270px; margin-top: 50px; position: absolute; right: 0px; top: 0px; font-size: 11px;}
 #login-cart a {letter-spacing: 1.5px; text-transform: uppercase; color: #000;}
 #login-cart .cart {float: right;}
 #login-cart .cart span.icon-cart {width: 28px; height: 28px; float: left; background: url('../images/cart.png') center center #000 no-repeat; border-radius: 100%; margin-right: 15px; position: relative; top: -10px;}
 #login-cart .cart span.icon-cart b {position: absolute; top: -10px; right: -5px; background-color: #fcc619; width: 18px; height: 18px; text-align: center; border-radius: 100%; line-height: 18px;}
 #login-cart .cart span.valor-total {font-weight: bold;}
-#carrinho-compras {float: right;}
+#carrinho-compras {float: right; cursor: pointer;}
+.cart-content {position: absolute; left: 0; top: 30px; background-color: #FFF; padding: 15px; box-shadow: 0 0 7px 0 rgba(0,0,0,.15); border-radius: 4px; z-index: 9999; width: 100%; float: left; font-size: 14px;}
+.produtos-cart {float: left; width: 100%;}
+.produtos-cart li {list-style: none; font-size: 13px; width: 100%; float: left; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #e4e4e4;}
+.produtos-cart li:last-of-type {margin-bottom: 0px; padding-bottom: 0pc; border: none;}
+.produtos-cart li .cart-item__nome {float: left; font-weight: lighter;}
+.produtos-cart li .cart-item__valor {float: right;}
 
 #slider-container {float: left; width: 100%;}
 #banner-home {width: 100%; position: relative; overflow: hidden;}
@@ -139,8 +145,7 @@ figure, img {max-width: 100%; height: auto; width: 100%;}
 .produtos .produto-inner:hover button {-webkit-animation-name: fadeIn; animation-name: fadeIn;}
 .rating > i:hover, .rating > span:hover ~ i {color: #c7c7c7;}
 
-.rating > i:hover::before,
-.rating > i:hover ~ i::before,
+
 .rating[data-rasting="1"] > i[data-star="1"]::before,
 .rating[data-rasting="1"] > i[data-star="1"] ~ i::before {color: #fcc619;}
 .rating[data-rasting="2"] > i[data-star="2"]::before,
