@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "nome": "Suede Chelsea Boots",
+      "valor": {
+        "anterio": null,
+        "atual": 350.00,
+        "parcelas":{
+          "quant":null,
+          "valor":null
+        }
+      },
+      "rasting":2,
+      "imagem_url": "images/produto-01.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "SuedeNike Air Max 90 Galaxy",
+      "valor": {
+        "anterio": 699.00,
+        "atual":499.00,
+        "parcelas":{
+          "quant":null,
+          "valor":null
+        }
+      },
+      "rasting": 4,
+      "imagem_url": "images/produto-02.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Nike Air Max Tava Gradient",
+      "valor": {
+        "anterio": null,
+        "atual":599.00,
+        "parcelas":{
+          "quant":null,
+          "valor":null
+        }
+      },
+      "rasting": 3,
+      "imagem_url": "images/produto-03.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Timberland Yellow Boot",
+      "valor": {
+        "anterio": 699.00,
+        "atual":499.00,
+        "parcelas":{
+          "quant":10,
+          "valor":49.90
+        }
+      },
+      "rasting": 4,
+      "imagem_url": "images/produto-04.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Vans SK8 Hi Preto",
+      "valor": {
+        "anterio": 320.00,
+        "atual":240.00,
+        "parcelas":{
+          "quant":null,
+          "valor":null
+        }
+      },
+      "rasting": 5,
+      "imagem_url": "images/produto-05.jpg"
+    }
+  ]

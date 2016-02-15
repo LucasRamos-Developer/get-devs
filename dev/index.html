@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="uft-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Profit-e | Teste</title>
+
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+
+
+        <!-- build:css css/fonts.min.css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css' media="all">
+        <!-- endbuild -->
+        <!-- build:css css/style.min.css -->
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+        <!-- endbuild -->
+
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <link rel="icon" sizes="160x160" href="">
+
+        <meta itemprop="creator" content="Julie Freitas">
+        <meta itemprop="copyrightHolder" content="Julie Freitas Fotógrafia">
+        <meta itemprop="copyrightYear" content="2015"> 
+
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Profit-e | Teste">
+        <link rel="apple-touch-icon-precomposed" href="">
+
+        <meta name="msapplication-TileImage" content="">
+        <meta name="msapplication-TileColor" content="#3372DF">
+    </head>
+    <body>
+        <header id="header-menu" class="container-padding">
+            <div class="header-elements">
+                <div id="search" class="header-search">
+                    <form class="input-group">
+                        <button class="fa fa-search" type="submit"></button>
+                        <input type="text" class="form-control">
+                    </form>
+                </div>
+                <div id="logotipp" class="header-logo">
+                     <img src="images/logotipo.png" alt="Logotipo - Protif-e">
+                </div>
+                <div id="login-cart" class="header-search">
+                    <div>
+                        <a href="" class="login">Login / Cadastra-se</a>
+                        <div class="" id="carrinho-compras">
+                            <a href="" class="cart">
+                                <span class="icon-cart">
+                                    <b class="contador">0</b>
+                                </span>
+                                <span class="valor-total">
+                                    R$ 0,00
+                                </span>
+                            </a>
+                            
+                            <ul id="lista-compras">
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu">
+                <div class="header-menu-center">
+                    <div class="header-menu-center-inner">
+                        <nav id="main-menu">
+                            <a href="">Novidades</a>
+                            <a href="">Masculino</a>
+                            <a href="">Feminino</a>
+                            <a href="">Marcas</a>
+                            <a href="">Ofertas</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="slider-container">
+            <div id="banner-home">
+                <div class="slider-container">
+                    <div class="slider-item animated fadeOut">
+                        <img src="images/banner.jpg" alt="banner slider">
+                        <div class="slider-caption">
+                            <div class="container">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h5 data-efect="fadeInDown" class="animated subtitle">Coleção</h5>
+                                        <h2 data-efect="fadeIn" class="animated title">Lorem Ipsum Dolor</h2>
+                                        <p data-efect="fadeInUp" class="animated link">
+                                            <a href="">Comprar</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item animated fadeOut">
+                        <img src="images/banner.jpg" alt="banner slider">
+                        <div class="slider-caption">
+                            <div class="container">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h5 data-efect="fadeInDown" class="animated subtitle">Coleção</h5>
+                                        <h2 data-efect="fadeIn" class="animated title">Lorem Ipsum Dolor</h2>
+                                        <p data-efect="fadeInUp" class="animated link">
+                                            <a href="">Comprar</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-item animated fadeOut">
+                        <img src="images/banner.jpg" alt="banner slider">
+                        <div class="slider-caption">
+                            <div class="container">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <h5 data-efect="fadeInDown" class="animated subtitle">Coleção</h5>
+                                        <h2 data-efect="fadeIn" class="animated title">Lorem Ipsum Dolor</h2>
+                                        <p data-efect="fadeInUp" class="animated link">
+                                            <a href="">Comprar</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  id="slider-controll">
+                    <div class="container">
+                        <div class="slider-arrow">
+                           
+                                <button type="button" id="next">Prox</button>
+                                <button type="button" id="prev">Ant</button>
+                            
+                        </div>
+                        <div class="slider-bullet">
+                            <p id="bullet"></p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main id="main-container" class="container">
+            <section id="home-destaques" class="margin-section three-column">
+                <div class="destaque-item column">
+                    <figure class="hover-contaneir">
+                        <img src="images/destaque-01.jpg" alt="destaque 01">
+                        <figcaption class="caption-effect animated">
+                            <div class="text-middle">
+                                <a class="animated hinge2">Lorem Ipsum</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                 <div class="destaque-item column">
+                    <figure class="hover-contaneir">
+                        <img src="images/destaque-02.jpg" alt="destaque 01">
+                        <figcaption class="caption-effect animated">
+                            <div class="text-middle">
+                                <a class="animated hinge2">Lorem Ipsum</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="destaque-item column">
+                    <figure class="hover-contaneir">
+                        <img src="images/destaque-03.jpg" alt="destaque 01">
+                        <figcaption class="caption-effect animated">
+                            <div class="text-middle">
+                                <a class="animated hinge2">Lorem Ipsum</a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="mais-comprados" class="margin-section">
+                <div class="title column">
+                    <h2>Mais Comprados</h2>
+                </div>
+                <div class="produtos five-column" >
+                    <article class="produto-item column">
+                        <div class="produto-inner animated">
+                            <div class="produto-infor">
+                                <figure>
+                                    <img src="images/produto-01.jpg" alt="produto 01">
+                                </figure>
+                                <div class="rating">
+                                    <i class="fa fa-star" data-rating="5"></i>
+                                    <i class="fa fa-star" data-rating="4"></i>
+                                    <i class="fa fa-star" data-rating="3"></i>
+                                    <i class="fa fa-star r-select" data-rating="2"></i>
+                                    <i class="fa fa-star" data-rating="1"></i>
+                                </div>
+                                <h4>Suede Chelsea Boots</h4>
+                                <p class="preco">
+                                    <span class="valor">R$ 350,00</span>
+                                </p>
+                            </div>
+                            <button data-action="add-cart" class="button-action animated">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </article>
+                    <article class="produto-item column">
+                        <figure>
+                            <img src="images/produto-02.jpg" alt="produto 02">
+                        </figure>
+                        <div class="rating">
+                            
+                        </div>
+                        <h4>Suede Chelsea Boots</h4>
+                        <p class="preco">
+                            <span class="valor">R$ 350,00</span>
+                        </p>
+                        <button data-action="add-cart">
+                            Adicionar ao carrinho
+                        </button>
+                    </article>
+                    <article class="produto-item column">
+                        <figure>
+                            <img src="images/produto-03.jpg" alt="produto 03">
+                        </figure>
+                        <div class="rating">
+                            
+                        </div>
+                        <h4>Suede Chelsea Boots</h4>
+                        <p class="preco">
+                            <span class="valor">R$ 350,00</span>
+                        </p>
+                        <button data-action="add-cart">
+                            Adicionar ao carrinho
+                        </button>
+                    </article>
+                    <article class="produto-item column">
+                        <figure>
+                            <img src="images/produto-04.jpg" alt="produto 04">
+                        </figure>
+                        <div class="rating">
+                            
+                        </div>
+                        <h4>Suede Chelsea Boots</h4>
+                        <p class="preco">
+                            <span class="valor">R$ 350,00</span>
+                        </p>
+                        <button data-action="add-cart">
+                            Adicionar ao carrinho
+                        </button>
+                    </article>
+                    <article class="produto-item column">
+                        <figure>
+                            <img src="images/produto-05.jpg" alt="produto 05">
+                        </figure>
+                        <div class="rating">
+                            
+                        </div>
+                        <h4>Suede Chelsea Boots</h4>
+                        <p class="preco">
+                            <span class="valor">R$ 350,00</span>
+                        </p>
+                        <button data-action="add-cart">
+                            Adicionar ao carrinho
+                        </button>
+                    </article>
+                </div>
+            </section>
+            <section id="home-mail-cadastro" class="margin-section">
+                <div class="column-cell" id="bulet-sale">
+                    
+                </div>
+                <div class="column-cell" id="promo-text">
+                    <p>Cadastre-se e ganhe<br><b>5% de desconto</b><br><small>na sua primeira compra</small></p>
+                </div>
+                <div class="column-full" id="form-cadastrar">
+                    <form>
+                        <div class="form-cell">
+                            <label>Nome</label>
+                            <input name="nome" class="form-control" type="text" />
+                        </div>
+                        <div class="form-cell">
+                            <label>E-mail</label>
+                            <input name="nome" class="form-control" type="text" />
+                        </div>
+                        <div class="form-submit">
+                            <button type="button" class="button-action">Cadastrar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer id="footer-main">
+            <div class="container-padding">
+                <div class="column-logo">
+                    <img src="images/logotipo.png" alt="Logotipo - Protif-e">
+                </div>
+                <div class="column-link">
+                    <h5>Navegue</h5>
+                    <nav class="footer-menu">
+                        <a href="">Novidades</a>
+                        <a href="">Masculino</a>
+                        <a href="">Feminino</a>
+                        <a href="">Marcas</a>
+                        <a href="">Ofertas</a>
+                    </nav>
+                </div>
+                <div class="column-link">
+                    <h5>Institucional</h5>
+                    <nav class="footer-menu">
+                        <a href="">Lorem</a>
+                        <a href="">Ispum</a>
+                        <a href="">Solor</a>
+                        <a href="">Sit</a>
+                        <a href="">Amet</a>
+                    </nav>
+                </div>
+                <div class="column-link">
+                    <h5>Lorem Spum</h5>
+                    <nav class="footer-menu">
+                        <a href="">Lorem</a>
+                        <a href="">Ispum</a>
+                        <a href="">Solor</a>
+                        <a href="">Sit</a>
+                        <a href="">Amet</a>
+                    </nav>
+                </div>
+                <div class="column-pagamentos">
+                    <h5>Formas de Pagamento</h5>
+                    <img src="images/cartoes.png" alt="forma de pagamento - Protif-e">
+                </div>
+                <div class="copyright">
+                    <p>© 2015  Profite.  Todos os direitos reservados</p>
+                </div>
+            </div>
+        </footer>
+
+         <!-- build:js js/event.min.js -->
+        <script type="text/javascript" src="js/event.emitter.js"></script>
+         <!-- endbuild -->
+        <!-- build:js js/react.min.js -->
+        <script type="text/javascript" src="js/react.js"></script>
+        <script type="text/javascript" src="js/react-dom.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js js/react.execute.min.js -->
+        <script type="text/javascript" src="js/utility.js"></script>
+        <script type="text/javascript" src="js/mais-comprados.js"></script>
+        <script type="text/javascript" src="js/produto-container.js"></script>
+        <script type="text/javascript" src="js/mais-comprados.js"></script>
+        <script type="text/javascript" src="js/produtos.js"></script>
+        <script type="text/javascript" src="js/carrinho.js"></script>
+        <!-- endbuild -->
+        <!-- build:js js/index.min.js -->
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/slider.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>
